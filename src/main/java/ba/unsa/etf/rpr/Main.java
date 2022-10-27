@@ -10,12 +10,11 @@ public class Main {
             return null;
         }
     }
-
     public static void main(String[] args) {
         System.out.println("Unosite brojeve (stop za kraj): ");
         Scanner ulaz = new Scanner(System.in);
         List<Integer> lista = new ArrayList<Integer>();
-        int i = 0, x;
+        int x;
         while (true) {
             String u = ulaz.next();
             if ("stop".equalsIgnoreCase(u)) break;
